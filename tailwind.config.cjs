@@ -69,6 +69,8 @@ module.exports = {
       },
     },
   },
-  plugins: [require('@tailwindcss/typography'), parentSiblingHoverPlugin],
+  plugins: [
+  // require('@tailwindcss/typography'),
+  parentSiblingHoverPlugin],
   darkMode: 'class',
 };
